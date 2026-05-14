@@ -21,3 +21,5 @@ The agent learns to solve the MountainCarContinuous-v0 environment using the Cro
 
 pip install -r requirements.txt
 python main.py
+!pip uninstall -y gym
+!pip install gymnasium[classic-control]
